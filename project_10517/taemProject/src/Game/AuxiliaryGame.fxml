@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.GameController">
+   <children>
+      <Label layoutX="212.0" layoutY="34.0" text="미니게임">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="23.0" layoutY="97.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+      <Button layoutX="182.0" layoutY="97.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+      <Button layoutX="339.0" layoutY="97.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+      <Label layoutX="56.0" layoutY="195.0" prefHeight="25.0" prefWidth="74.0" text="리듬게임" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="195.0" prefHeight="25.0" prefWidth="74.0" text="할리갈리" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="372.0" layoutY="195.0" prefHeight="25.0" prefWidth="89.0" text="태윤이 게임" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="230.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+      <Button layoutX="183.0" layoutY="230.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+      <Button layoutX="340.0" layoutY="230.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="추가 요청" />
+      <Label layoutX="57.0" layoutY="328.0" prefHeight="25.0" prefWidth="74.0" text="아직" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="328.0" prefHeight="25.0" prefWidth="74.0" text="없음" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="re" layoutX="186.0" layoutY="384.0" mnemonicParsing="false" onAction="#Return" prefHeight="40.0" prefWidth="140.0" text="돌아가기" />
+   </children>
+</AnchorPane>
