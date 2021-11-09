@@ -11,7 +11,7 @@ public class JDBCUtil {
 			e.printStackTrace();
 		}
 		
-		String connectionString = "jdbc:mysql://localhost/taemDB";
+		String connectionString = "jdbc:mysql://localhost/teamdb";
 		String userId = "root";
 		String password = "";
 		

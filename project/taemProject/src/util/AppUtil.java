@@ -9,7 +9,7 @@ public class AppUtil {
 		alert.setTitle("¾Ë¸²");
 		alert.setHeaderText(header);
 		alert.setContentText(msg);
-		
+
 		alert.show();
 	}
 }
