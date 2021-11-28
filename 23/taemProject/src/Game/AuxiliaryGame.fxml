@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.GameController">
+	<children>
+		<Label layoutX="111.0" layoutY="25.0" text="미니게임">
+			<font>
+				<Font size="31.0" />
+			</font>
+		</Label>
+		<Button layoutX="23.0" layoutY="97.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+		<Button layoutX="182.0" layoutY="97.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+		<Button layoutX="23.0" layoutY="230.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Button" />
+		<Label layoutX="56.0" layoutY="195.0" prefHeight="25.0" prefWidth="74.0" text="리듬게임" textAlignment="CENTER">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<Label layoutX="218.0" layoutY="195.0" prefHeight="25.0" prefWidth="74.0" text="할리갈리" textAlignment="CENTER">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<Label layoutX="55.0" layoutY="328.0" prefHeight="25.0" prefWidth="89.0" text="태윤이 게임" textAlignment="CENTER">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<Button layoutX="188.0" layoutY="230.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="추가 요청" />
+      <ImageView fx:id="back" fitHeight="66.0" fitWidth="165.0" layoutX="146.0" layoutY="360.0" onMouseClicked="#GoBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMG/뒤로.png" />
+         </image>
+      </ImageView>
+	</children>
+</AnchorPane>

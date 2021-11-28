@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="190.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.GameController">
+   <children>
+      <Button fx:id="re" layoutX="229.0" layoutY="92.0" mnemonicParsing="false" onAction="#temporary" prefHeight="76.0" text="초기화" />
+      <Label layoutX="28.0" layoutY="11.0" prefHeight="58.0" prefWidth="135.0" text="개발자 모드">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="back" fitHeight="51.0" fitWidth="62.0" layoutX="229.0" layoutY="15.0" onMouseClicked="#GoBack">
+         <image>
+            <Image url="@../IMG/뒤로.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="receive" layoutX="14.0" layoutY="90.0" prefHeight="40.0" prefWidth="186.0" promptText="돈" />
+      <Label fx:id="Send" layoutX="14.0" layoutY="135.0" onMouseClicked="#DeveloperModeController" prefHeight="30.0" text="돈 입력 후 여기를 눌러주세요" />
+   </children>
+</AnchorPane>
